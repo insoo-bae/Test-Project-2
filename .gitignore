@@ -75,3 +75,4 @@ Test-Project-2/UserSettings/
 # Ignore temporaries from GameCI
 /[Aa]rtifacts/
 /[Cc]odeCoverage/
+Test-Project-2/Temp/
