@@ -2,6 +2,11 @@
 
 on: [push, pull_request]
 
+permissions:
+  actions: read
+  contents: read
+  security-events: write
+
 jobs:
   build:
     name: Build my project ✨
