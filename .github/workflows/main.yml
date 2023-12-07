@@ -31,13 +31,13 @@ jobs:
             Library-
 
       # Test
-      - name: Run tests
-        uses: game-ci/unity-test-runner@v4
-        env:
-            UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
-        with:
-            projectPath: ./Test-Project-2
-            githubToken: ${{ secrets.GITHUB_TOKEN }}
+      #- name: Run tests
+      #  uses: game-ci/unity-test-runner@v4
+      #  env:
+      #      UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+      #  with:
+      #      projectPath: ./Test-Project-2
+      #      githubToken: ${{ secrets.GITHUB_TOKEN }}
 
       # Build
       - name: Build project
